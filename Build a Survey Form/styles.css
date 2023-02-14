@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(58, 58, 158, 0.8);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+    min-width: 540px;
+}
+
+.container {
+    width: 50%;
+    margin: 3.125rem auto 0 auto;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 0.25rem;
+    padding: 2.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-size: inherit;
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 0.25rem;
+    height: 2.75rem;
+    background-color: white;
+    color: gray;
+    border: 1px solid ced4da;
+    padding: 0.25rem 0.5rem;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.6rem;
+}
+
+button {
+    border: none;
+    background-color: #37af65;
+    width: 100%;
+    padding: 0.75rem;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.input-radio,
+.input-checkbox {
+    display: inline-block;
+    margin-right: 0.65rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}

@@ -1,0 +1,231 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: #17110D;
+  font-family: Lato;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background: #17110D;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  width: 60vw;
+  margin-left: 15px;
+}
+
+nav {
+  width: 35vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav>li>a:hover {
+  background: linear-gradient(yellow 25%, #F18DB1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav>li>a {
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 120px;
+  text-align: center;
+}
+
+input {
+  margin-top: 25px;
+  margin-left: 15px;
+  padding: 15px;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+#submit {
+  background-color: #2190FF;
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: black;
+  background-color: #83eb34;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.feature {
+  margin-top: 50px;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+.feature-desc {
+  width: 80vw;
+}
+
+i {
+  margin: 35 20 20 20;
+}
+
+.fa-js {
+  color: #ebe134;
+}
+
+.fa-chalkboard-user {
+  color: #3471eb;
+}
+
+.fa-thumbs-up {
+  color: #43eb34;
+}
+
+#How-it-works {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.option {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid white;
+}
+
+.grid-item>p {
+  margin: 0;
+  line-height: 2;
+}
+
+.grid-item>button {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #ebeb34;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.grid-item>button:hover {
+  background-color: #eb9f34;
+}
+
+footer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer>div>i:hover {
+  cursor: pointer;
+}
+
+.icons-link {
+  display: inline-block;
+  color: white;
+  margin: 15px;
+}
+
+.fa-github:hover {
+  background: linear-gradient(#4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-discord:hover {
+  color: #7289d9;
+}
+
+.fa-linkedin-in:hover {
+  color: #264bf0;
+}
+
+.fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube:hover {
+  color: red;
+}
+
+@media only screen and (max-width:830px) {
+  .logo {
+    width: 40vw;
+  }
+
+  nav {
+    width: 55vw;
+  }
+}
+
+@media only screen and (max-width:630px) {
+
+  .logo {
+    display: none;
+  }
+
+  nav {
+    width: 100vw;
+    height: 50px;
+  }
+
+  nav>li>a {
+    background: linear-gradient(#F18DB1 25%, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+  }
+
+
+}
